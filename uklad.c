@@ -5,43 +5,5 @@
 int main()
 
 {
-      float a,b,c,d,e,f,x,y;
-     
-      /*Pierwsze równanie liniowe postaci ax+by=c*/
-     
-      printf("Podaj wspolczynnik a rownania liniowego ax+by=c \n");
-     
-      scanf("%f",&a);
-     
-      printf("Podaj wspolczynnik b rownania liniowego ax+by=c \n");
-     
-      scanf("%f",&b);
-     
-      printf("Podaj wspolczynnik c rownania liniowego ax+by=c \n");
-     
-      scanf("%f",&c);
-     
-      /*Drugie rownanie liniowe postaci dx+ey=f*/
-     
-      printf("Podaj wspolczynnik d rownania liniowego dx+ey=f \n");
-     
-      scanf("%f",&d);
-     
-      printf("Podaj wspolczynnik b rownania liniowego dx+ey=f \n");
-     
-      scanf("%f",&e);
-     
-      printf("Podaj wspolczynnik b rownania liniowego dx+ey=f \n");
-     
-      scanf("%f",&f);
-       
-       x=(e*c-b*f)/(a*e-b*d);  /* przekształcenie układu, tak aby x oraz y miały rozwiązania*/
-       y=(c*d-a*f)/(d*b-a*e);
-             
-       
-     printf("x wynosi %f\n",x);
-       printf("y wynosi %f\n",y);
-       
-       system("PAUSE");
-       return 0;
-       }
+      float a1,a2,b1,b2,c1,c2;/*podanie wspolczynnikow*/
+
